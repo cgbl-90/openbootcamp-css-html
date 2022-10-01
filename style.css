@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    font-family: Courier, monospace;
+    margin: 3rem;
+}
+
+input {
+    padding: 3px 10px;
+    font-family: monospace;
+}
+
+tr,
+th,
+td {
+    max-width: 400px;
+    overflow: hidden;
+    padding: 1px 2px;
+}
