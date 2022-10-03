@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    margin: 10px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    margin: 100px 0px 10px;
+}
+
+div {
+    display: flex;
+    place-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div img {
+    max-width: 300px;
+    padding: 10px;
+}
