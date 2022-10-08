@@ -1,0 +1,113 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+.signup-cta {
+    text-align: right;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    place-items: center;
+    width: 700px;
+}
+
+h3,
+h4 {
+    font-weight: 200;
+    display: inline;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h1::after {
+    content: " ! ";
+}
+
+img {
+    width: 40px;
+    padding: 1px;
+    display: inline;
+}
+
+.google-grp {
+    display: flex;
+    place-items: center;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 0px 20px;
+    width: fit-content;
+}
+
+.line {
+    margin: 30px 0px;
+    font-weight: 900;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    width: fit-content;
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: 700;
+    margin: 10px 0px;
+    display: inline-block;
+}
+
+.details-box {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.details-box div:last-child {
+    margin-left: 50px;
+}
+
+.terms {
+    font-weight: 100;
+    font-size: 14px;
+    display: inline;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: Helvetica;
+    padding: 10px 20px;
+    width: fit-content;
+    background-color: white;
+    font-size: 16px;
+}
+
+input:hover,
+input:focus {
+    background-color: rgb(212, 212, 212);
+    color: rgb(5, 4, 4);
+    box-shadow: 1px 1px 4px grey;
+}
