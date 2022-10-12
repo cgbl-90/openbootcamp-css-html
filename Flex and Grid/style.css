@@ -36,3 +36,7 @@ body {
 .col2 {
     grid-column-start: span 3;
 }
+
+.col6 {
+    grid-column-start: span -1;
+}
