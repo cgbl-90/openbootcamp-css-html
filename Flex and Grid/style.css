@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.col {
+    background-color: bisque;
+    display: flex;
+    gap: 20px;
+    flex-direction: column-reverse;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    gap: 10px;
+}
+
+.item1 {
+    background-color: aquamarine;
+}
+
+.item2 {
+    background-color: blueviolet;
+}
+
+.item3 {
+    background-color: coral;
+}
+
+.col4 {
+    grid-area: 1 / 2;
+}
+
+.col2 {
+    grid-column-start: span 3;
+}
