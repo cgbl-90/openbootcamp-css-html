@@ -1,0 +1,41 @@
+.col {
+    background-color: aqua;
+}
+
+.col-sm,
+.col-8 {
+    background-color: green;
+}
+
+.col-md,
+.col-4 {
+    background-color: yellow;
+}
+
+.col-lg,
+.col-6 {
+    background-color: blue;
+}
+
+.col-xl {
+    background-color: pink;
+}
+
+.col-xxl {
+    background-color: red;
+}
+
+
+
+.col,
+.col-sm,
+.col-8,
+.col-md,
+.col-4,
+.col-lg,
+.col-6,
+.col-xl,
+.col-xxl {
+    padding: 30px 0px;
+    font-size: 24px;
+}
